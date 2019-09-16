@@ -25,17 +25,15 @@ public class Two_Sum {
                     //return the indices
                     twoSumArr[0] = i;
                     twoSumArr[1] = j;
-                    for(int val : twoSumArr) {
-                    	System.out.println(val);
-                    }
                     return twoSumArr;
                 }
             }
         }
-        return null;
+        return twoSumArr;
     }
 	
 	public static void main(String[] args) {
+		//testing twoSum()
 		int [] arr = {3, 2, 4};
 		System.out.println(twoSum(arr, 6));
 	}
