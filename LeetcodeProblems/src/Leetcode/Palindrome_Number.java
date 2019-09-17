@@ -1,7 +1,6 @@
 package Leetcode;
 
 import java.util.ArrayList;
-import java.util.Collections;
 
 public class Palindrome_Number {
 	/*
